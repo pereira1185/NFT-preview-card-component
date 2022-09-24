@@ -31,6 +31,8 @@ body {
 .image {
     position: relative;
     cursor: pointer;
+    overflow: hidden;
+    border-radius: 15px;
 }
 .view {
     position: absolute;
@@ -49,7 +51,7 @@ body {
 }
 .view:hover {
     background-color: var(--Cyan);
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .color-cyan {
     color: var(--Cyan);
