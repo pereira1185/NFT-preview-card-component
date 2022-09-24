@@ -23,7 +23,7 @@ body {
     background-color: var(--Verydarkblue-mainBG);
 }
 .card-box {
-    width: 350px;
+    max-width: 350px;
     background-color: var(--Verydarkblue-cardBG);
     padding: 30px;
     border-radius: 15px;
@@ -50,8 +50,8 @@ body {
     transform: translate(-50%, -50%);
 }
 .view:hover {
-    background-color: var(--Cyan);
-    opacity: 0.7;
+    background-color: hsl(178, 100%, 50%, 60%);;
+    opacity: 1;
 }
 .color-cyan {
     color: var(--Cyan);
